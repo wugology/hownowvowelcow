@@ -1,10 +1,10 @@
 function countVowels(text){
    var letterArray = text.split('');
    var count = 0;
-   var vowels = ['a','e','i','o','u'];
+   var vowels = 'aeiouAEIOU';
 
    letterArray.forEach(function(letter){
-     if(vowels.indexOf(letter) > -1){
+     if(vowels.contains(letter)){
         count += 1
      }
    })
