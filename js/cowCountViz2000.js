@@ -11,26 +11,25 @@ function countVowels(text){
    return count;
 }
 
+function addCow(){
+  var protocow = document.querySelector('img');
+  var newCow = protocow.cloneNode(true);
+  var field = document.querySelector('#field');
+  field.appendChild(newCow);
+}
+
 
 document.addEventListener('DOMContentLoaded', function(){
 
 var button = document.querySelector('button');
 
 button.addEventListener('click', function(ev){
-
-   
    var text = document.body.querySelector('input').value;
    var mycount = countVowels(text);
    for(var i=0; i< mycount; i++){
      addCow();
    }
 })   
-
-function addCow(){
-  var protocow = document.querySelector('img');
-  var newCow = protocow.cloneNode(true);
-  document.body.appendChild(newCow);
-}
 
 
 })
