@@ -5,3 +5,4 @@ ZooifyIt!
 
 Using Zoological technology to investigate Phonological Statistics. Oh snap.
 
+Try it out live: http://wugology.com/stuff/zooify.html
