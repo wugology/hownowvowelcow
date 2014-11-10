@@ -4,8 +4,6 @@
 <title>Zoo-ify it!</title>
 <meta charset=utf-8>
 
-<script src=js/zooify.js></script>
-
 <style>
 img { 
   height: 50px; 
@@ -29,14 +27,17 @@ body {
     margin-left: 50px;
 }
 
+#field { 
+  width: 85%;
+}
 </style>
 
 </head>
 <body>
 <h1>ZooifyIt!</h1>
-<img src=img/a.svg>
-<img src=img/b.svg>
-<img src=img/c.svg>
+<img src=/img/a.svg>
+<img src=/img/b.svg>
+<img src=/img/c.svg>
 <p>
 
 ZooifyIt is a vast improvement over the traditional "How Now Vowel Cow?" model found at <a href="https://github.com/ComplingFTW/hownowvowelcow">wugbot</a>. ZooifyIt will transliterate any sentence into a whole zoo! A is for alligator, B is for bear...
@@ -45,12 +46,14 @@ ZooifyIt is a vast improvement over the traditional "How Now Vowel Cow?" model f
 <input placeholder="Type something in this box...">
 <button>ZooifyIt!</button>
 
+
+<p>All images courtesy of <a href="https://openclipart.org/">OpenClipart</a>.</p>
 <div id=field>
 
 </div>
-<p>All images courtesy of <a href="https://openclipart.org/">OpenClipart</a>.</p>
-
 
 </body>
+
+<script src=/js/zooify.js></script>
 
 </html>
